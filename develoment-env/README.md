@@ -17,3 +17,7 @@ Within WSL, the following components are configured:
 
   - **cuDF** — an open-source CUDA-X™ Data Science library that provides GPU-accelerated DataFrame operations for **Pandas**, **Polars**, and **Apache Spark**, offering significant performance improvements without requiring code changes.  
   - **cuML** — part of the RAPIDS suite, this library accelerates machine learning algorithms such as **scikit-learn**, **UMAP**, and **HDBSCAN** on GPUs, drastically reducing training and inference times.
+
+- **Code Style** — all Python code follows the **Google Python Style Guide**, adhering to best practices defined in **PEP 8** for code formatting and **PEP 257** for docstring conventions. The **pylint** library is used to enforce these standards, ensuring clean, consistent, and maintainable code across all modules.
+
+- **Docker Engine** — included in the environment to build tailored Docker containers and deploy multiple images as integrated services using **Docker Compose**. This setup is particularly useful for managing **MLflow**, **MinIO**, and **Airflow** services within isolated, reproducible environments.

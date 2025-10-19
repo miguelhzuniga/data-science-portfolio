@@ -1,0 +1,7 @@
+# Airflow runtime data
+airflow/logs/
+airflow/config/
+airflow/*.db
+
+# Airflow project environment
+.env
